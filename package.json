@@ -1,7 +1,7 @@
 {
-  "name": "scratch-gui",
+  "name": "sword-gui",
   "version": "0.1.0",
-  "description": "GraphicaL User Interface for creating and running Scratch 3.0 projects",
+  "description": "GraphicaL User Interface for creating and running Sword 3.0 projects",
   "main": "./dist/scratch-gui.js",
   "scripts": {
     "build": "npm run clean && webpack --colors --bail",
@@ -18,8 +18,8 @@
     "test:smoke": "jest --runInBand test[\\\\/]smoke",
     "watch": "webpack --colors --watch"
   },
-  "author": "Massachusetts Institute of Technology",
-  "license": "BSD-3-Clause",
+  "author": "The Sword Clan",
+  "license": "MIT",
   "homepage": "https://github.com/LLK/scratch-gui#readme",
   "repository": {
     "type": "git",
